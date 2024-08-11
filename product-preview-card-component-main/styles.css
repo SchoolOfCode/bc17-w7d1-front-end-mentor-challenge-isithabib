@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    /* font-family: 'Arial'; */
+    background-color: #f4f4f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 320px;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* border-style: solid #ff69b4;
+    border-width: 50px solid; */
+    border: 15px solid #f3eae3; 
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .content {
+    padding: 20px;
+    border-radius: 40x;
+  }
+  
+  .title {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Garamond';
+  }
+  
+  .perfume {
+    font-family: 'Verdana';
+    font-size: 10px;
+    color: #666;
+    margin-top: 8px;
+  }
+
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+  }
+  
+  .prices {
+    margin-top: 12px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #9999a5;
+  }
+  
+  .sale-price {
+    font-size: 24px;
+    color: #3d8168;
+    font-weight: bold;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    background-color: #3d8168;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    /* font-weight: bold; */
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
